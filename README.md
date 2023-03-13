@@ -1,7 +1,7 @@
-# CONDICIONALES
-### RETO 5
-
-# CODE #1
+# CONDICIONALES:relaxed:
+# RETO 5:star:
+El reto 5 se trata de resolver una serie de problemas por medio de codigos como se muestra acontinuacion.
+# :sparkles: CODE #1
 Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
 ```ruby
 n: int
@@ -18,7 +18,7 @@ else:
 [![image.png](https://i.postimg.cc/WzRJvMQ8/image.png)](https://postimg.cc/ZBcqPyYv)
 
 
-# CODE #2
+# :sparkles: CODE #2
 Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
 ```ruby
 n = (input("Ingrese una cadena de longitud 1:"))
@@ -35,7 +35,7 @@ else:
 [![image.png](https://i.postimg.cc/GmswBGNG/image.png)](https://postimg.cc/VJ1Hprzk)
 
 
-# CODE #3
+# :sparkles: CODE #3
 Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
 
 ## CODE #3.1
@@ -69,7 +69,7 @@ else:
 [![image.png](https://i.postimg.cc/8PfNv2f7/image.png)](https://postimg.cc/crWpy5mW)
 
 
-# CODE #4
+# :sparkles: CODE #4
 Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
 Positivo: "El número x es positivo"
 Negativo: "El número x es negativo"
@@ -94,7 +94,7 @@ else:
 [![image.png](https://i.postimg.cc/SsLVHNPn/image.png)](https://postimg.cc/FdRjLmNv)
 
 
-# CODE #5
+# :sparkles: CODE #5
 Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
 ```ruby
 # Pidir al usuario las coordenadas del centro del círculo y su radio
@@ -121,7 +121,7 @@ else:
 [![image.png](https://i.postimg.cc/c1hrbVd9/image.png)](https://postimg.cc/7bCHCtG0)
 
 
-# CODE #6
+# :sparkles: CODE #6
 Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
 ```ruby
 # Declaracion de variables
@@ -142,3 +142,5 @@ else:
 [![image.png](https://i.postimg.cc/kMRtBjCf/image.png)](https://postimg.cc/PNhq7QPw)
 ### CODE #5 CORRIDO PARA LONGITUDES CON LAS CUALES NO SE PUEDE HACER UN TRIANGULO
 [![image.png](https://i.postimg.cc/1XVRXYN6/image.png)](https://postimg.cc/p5xM1CCX)
+
+# :star:Esto es todo por hoy amigos, espero haber cumplido con el reto e inspirar nuevos codigos o ayudar a algunos compañeros en el viaje de aprender a programar:star:
