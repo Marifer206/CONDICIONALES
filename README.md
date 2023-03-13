@@ -97,10 +97,48 @@ else:
 # CODE #5
 Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
 ```ruby
+# Pidir al usuario las coordenadas del centro del círculo y su radio
+cx = float(input("Ingrese la coordenada x del centro del círculo: "))
+cy = float(input("Ingrese la coordenada y del centro del círculo: "))
+r = float(input("Ingrese el radio del círculo: "))
 
+# Pidir al usuario las coordenadas del punto a verificar
+x = float(input("Ingrese la coordenada x del punto: "))
+y = float(input("Ingrese la coordenada y del punto: "))
+
+# Calcula la distancia entre el punto y el centro del círculo
+distancia = ((x - cx)**2 + (y - cy)**2)
+
+# Compara la distancia con el radio del círculo
+if distancia <= r:
+    print("El punto está dentro del círculo.")
+else:
+    print("El punto está fuera del círculo.")
 ```
+### CODE #5 CORRIDO PARA UN PUNTO QUE ESTA DENTRO DEL CIRCULO
+[![image.png](https://i.postimg.cc/9QVgQR6F/image.png)](https://postimg.cc/cr9BDH1V)
+### CODE #5 CORRIDO PARA UN PUNTO QUE NO ESTA DENTRO DEL CIRCULO
+[![image.png](https://i.postimg.cc/c1hrbVd9/image.png)](https://postimg.cc/7bCHCtG0)
+
+
 # CODE #6
 Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
 ```ruby
+# Declaracion de variables
+a : float
+b : float
+c : float 
+#Longitudes de las rectas
+a = float(input("Inserte longitud de la recta a: "))
+b = float(input("Inserte longitud de la recta b: "))
+c = float(input("Inserte longitud de la recta c: "))
 
+if (a < b + c) and (b < a + c) and (c < a + b):
+    print( "Se puede hacer un triangulo")
+else:
+    print( "NO se puede hacer un triangulo")
 ```
+### CODE #5 CORRIDO PARA LONGITUDES CON LAS CUALES SE PUEDE HACER UN TRIANGULO
+[![image.png](https://i.postimg.cc/kMRtBjCf/image.png)](https://postimg.cc/PNhq7QPw)
+### CODE #5 CORRIDO PARA LONGITUDES CON LAS CUALES NO SE PUEDE HACER UN TRIANGULO
+[![image.png](https://i.postimg.cc/1XVRXYN6/image.png)](https://postimg.cc/p5xM1CCX)
